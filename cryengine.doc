@@ -1,0 +1,38 @@
+cryengine
+1. Supported programming languages
+Cryengine支持C++、C#、Lua脚本语言
+2.Multi-platform deployment
+Windows、Linux、PS3、PS4、Wii U、Xbox 360、Xbox One (官网和知乎上并没有说支持mac os？)
+3.Hardware requirements for developers and users
+Cryengine：
+开发者系统要求：
+操作系统：Windows XP SP2或Windows Vista SP1或Windows 7
+CPU：英特尔Core 2 Duo 2GHz时，AMD速龙64 X2 2GHz或更好（强烈建议多核心处理器） 内存：2 GB RAM（推荐使用4 GB） 
+显卡：NVIDIA 8800GT 512MB RAM，ATI 3850HD 512MB RAM或更高（SM 3.0最低）
+
+最终用户系统的要求
+最终用户只使用无沙箱游戏启动，系统的要求较低。
+操作系统：Windows XP SP2，Windows Vista SP1，Windows 7
+CPU：英特尔Core 2 Duo 2GHz时，AMD速龙64 X2 2GHz或更好（强烈建议多核心处理器）
+内存：1 GB内存（推荐2 GB）
+显示卡：NVIDIA 8800GT 512MB RAM，ATI 3850HD 512MB RAM或更高（SM 3.0最低）
+4.Community support and marketplace popularity
+cryengine有官方community，更新速度较慢。从知乎、百度等各个渠道搜索的结果来看，在中国似乎并不是很流行，就连cryengine中文网在线人数都为0，每天也只有寥寥数篇帖子。代表作也较少，除了广为人知的《孤岛危机》系列、《狙击手:幽灵战士2》、《怪物猎人Online》之外，没有太多大型知名游戏（我也只玩过怪物猎人online和孤岛危机1 orz）。
+5.Official help docs availability
+cryengine可以获得，http://docs.cryengine.com/display/SDKDOC2/Home。（内容相当庞大）
+6.Game genres (e.g. RTS, FPS) favoritism
+Cryengine主体还是FPS，但也支持RTS的开发。
+7.Built-in modeling and animating system capability
+cryengine自主建模工具不专业，但可以用3dsmax或者maya导入模型或者动画。
+8.Graphics quality
+第三代Cryengine改进了可破坏环境、光源效果、实时软粒子系统、实时动态全局光照、景深效果及大量其它特效。毫无疑问，cryengine3的画质绝对是三者之中最好的。（比较见此网址http://age.178.com/201106/t_102726089501.html）
+9．Work flow fluency
+CryEngine3的优化做得不错，现在市面上的中端配置基本可以最高配置流畅运行。（但是我这种10年的电脑就跪了）
+10.Learning difficulty for indie developers and teams
+总算等到这个槽点了！！
+知乎上搜cryengine一共就几个问题啊！！ 还没什么像样的回答啊！！要知道知乎上虚幻和unity都是开了专题的啊！！知乎上唯一有用的回答说的是cryengine没有基础会很难学的啊！！而且英文界面很让人头疼啊！！看完这个我的内心几乎是崩溃的直接前面的问题就不想回答了啊！！（网址
+http://www.zhihu.com/question/20922053/answer/26226887）
+然后为什么各种搜cryengine都找不到什么好的资源啊！！
+好不容易找到本中文翻译的书还下不下来啊！
+不论是中文网还是贴吧还是官方的community为什么都没看到几个当天更新的帖子啊！！这不是很火的吗喂！！！
+orz，卒
