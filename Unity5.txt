@@ -1,0 +1,199 @@
+对于 Unity5 引擎的前期调查
+
+1. Supported programming languages
+URL：https://zh.wikipedia.org/wiki/Unity_(%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E)
+	UnityScript（派生自ECMAScript）
+	C#
+	Javascript
+	BOO（派生自Python）
+	C++（仅使用在核心引擎）
+	
+2. Multi-platform deployment
+URL：https://zh.wikipedia.org/wiki/Unity_(%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E)
+	制作平台
+		Windows
+		Mac OS X
+	部署平台
+		Windows
+		Mac OS X
+		Linux
+		Wii，Wii U，新3DS（部署需要特别授权）
+		Xbox 360，Xbox ONE（部署需要微软授权）
+		PS3，PS4，PSV（部署需要特别授权）
+		Android（部署需要特别授权）
+		iOS，iPhone/iPad（部署需要特别授权）
+		Windows Phone
+		支持WebGL的网页浏览器
+		
+3. Hardware requirements for developers and users
+	第一 基本要求：
+	URL http://unity3d.com/unity/system-requirements
+		FOR DEVELOPMENT
+			OS: Windows XP SP2+, 7 SP1+, 8; Mac OS X 10.8+.
+			Windows Vista is not supported; and server versions of Windows & OS X are not tested.
+			GPU: Graphics card with DX9 (shader model 2.0) capabilities. Anything made since 2004 should work.
+			The rest mostly depends on the complexity of your projects.
+			Additional platform development requirements:
+			iOS: Mac computer running minimum OS X 10.9.4 version and Xcode 6.x.
+			Android: Android SDK and Java Development Kit (JDK).
+			Windows 8/8.1 Store Apps / Windows Phone 8/8.1: 64 bit Windows 8.1 Pro and Visual Studio 2013 Update 2+.
+			Blackberry: 32 bit Java Runtime (JRE).
+		FOR RUNNING UNITY GAMES
+			Generally content developed with Unity can run pretty much everywhere. How well it runs is dependent on the complexity of your project. More detailed requirements:
+			Desktop:
+			OS: Windows XP+, Mac OS X 10.7+, Ubuntu 10.10+, SteamOS+
+			Graphics card: DX9 (shader model 2.0) capabilities; generally everything made since 2004 should work.
+			CPU: SSE2 instruction set support.
+			Web player supports IE, Chrome, Firefox, Safari and others.
+			iOS: requires iOS 6.0 or later.
+			Android: OS 2.3.1 or later; ARMv7 (Cortex) CPU or Atom CPU; OpenGL ES 2.0 or later.
+			Blackberry: OS 10 or later.
+	第二 进阶参考数据：
+	URL：http://stats.unity3d.com/
+	
+4. Community support and marketplace popularity
+Unity作为现今最热的游戏引擎，社区支持是最吼的，市场份额是最牛的（伪？）
+	Community support
+		官方论坛：会员10082，帖子16429
+		官方解答：“解答”是我们的社区网站，针对具体的 Unity 问题和答案。欢迎初学者和专家这样的用户发帖，这有助于开发人员之间互相帮助熟练使用Unity。内置的投票系统有助于更快找到最佳答案。
+		Stack Overflow：以“unity 3d”为关键字搜索出1647条结果
+		CSDN：以“unity 3d”为关键字搜索出65706条结果
+	marketplace popularity
+	URL：https://unity3d.com/cn/public-relations
+		45%的市场份额
+		在世界范围内，Unity占据全功能游戏引擎市场45％的份额，大约三倍于最接近我们的竞争对手。
+		47%的开发人员
+		Unity游戏引擎在开发人员中远比任何其他游戏开发软件更受欢迎。依托Unity作为主要开发工具以及使用Unity的开发者比例在不断提高。
+		UNITY主导了3D手机游戏
+		在世界的各个主要市场，绝大多数利用第三方工具制作的最卖座的3D手机游戏使用的都是Unity。
+		六亿玩家
+		Unity通过使用我们的引擎制作的游戏吸引了遍布世界各地的6亿游戏玩家。相比之下，Facebook拥有8.29亿的日常用户。
+		
+5. Official help docs. availability
+	Unity Manual（文档文档，英文）
+	URL：http://docs.unity3d.com/Manual/index.html
+	Unity脚本与技巧百科全书
+	URL：http://wiki.unity3d.com/index.php/Main_Page
+	
+6. Game genres (e.g. RTS, FPS) favoritism
+由下可知，Unity偏向于移动端的角色扮演类游戏的开发。已知用Unity开发的知名游戏有：
+	A角色扮演类
+		天龙八部3D（Android	iPhone	iPad）
+		神游记（2012）（网页）
+		征龙之路（2012）（ios）
+		废土2（2013）（PC）
+		新仙剑奇侠传Online（2013）（网页）
+		轩辕剑陆：凤凌长空千载云（2013）（PC）
+		Ground War:Tanks（2014）（网页）
+		刀剑神域Code Register（2014）（PSP）
+		仙剑奇侠传六（2015）（Windows	Xbox One	PS4）
+		大航海时代V（2014）（PC Android）
+	B动作类
+		神庙逃亡2（2012）（Android）
+		聚爆Implosion（2015）（IOS）
+		C射击类
+		Guns Rush - 即刻枪战（2013）（网页）
+		Firewill - 战火行动（2013）（网页）
+		ShadowGun （2011）（IOS Android）
+	D益智类
+		纪念碑谷（IOS）
+		捣蛋猪（2012）（愤怒的小鸟衍生游戏）（iOS 	Mac OS X	Android		Windows）
+		神魔之塔（2013）（IOS		Android）
+		Juice Cubes（2013）（IOS	Android）
+	E回合策略类
+		万舰穿星（2012）（Windows	Mac）
+		炉石传说：魔兽英雄传（2013）（Windows	Mac	iOS		Android）
+		Kingdom Knights - 王国骑士团（2013）（网页）
+	F 即时策略类
+		坎巴拉太空计划（2011）（Windows	Mac OS X	Linux）
+		酷游视界 - 酷酷英雄传（2013）（IOS		Android		PC）
+		
+7. Built-in modeling and animating system capability
+	Unity’s Animation System
+	有内置 	URL：http://docs.unity3d.com/Manual/AnimationOverview.html（官方文档）
+		Unity has a rich and sophisticated animation system called Mecanim. Mecanim provides:
+			Easy workflow and setup of animations for all elements of Unity including objects, characters, and properties.
+			Support for imported animation clips and animation created within Unity
+			Humanoid animation retargeting - the ability to apply animations from one character model onto another.
+			Simplified workflow for aligning animation clips.
+			Convenient preview of animation clips, transitions and interactions between them. This allows animators to work more independently of programmers, prototype and preview their animations before gameplay code is hooked in.
+			Management of complex interactions between animations with a visual programming tool.
+			Animating different body parts with different logic.
+			Layering and masking features
+	Modeling 
+	无内置，支持以下软件 URL：http://docs.unity3d.com/Manual/HOWTO-importObject.html
+		Maya
+		Cinema 4D
+		3ds Max
+		Cheetah3D
+		Modo
+		Lightwave
+		Blender
+
+8. Graphics quality
+关于Unity5与Unreal4图形效果的比较
+知乎问答：Unity 5 发布了，但是否 Unity 做的游戏与 Unreal 相比要显得粗糙很多？ URL：http://www.zhihu.com/question/28506749
+	游戏画面是很多因素决定的，材质模型，灯光模型，渲染，和后期特效 起着重要的作用
+	我们一个个比过来好了
+	材质上面，按说是谁都能写，但是各种花巧和思考，是很深奥很难平衡的，早版本的unreal3碾压其他引擎的重要方面就是材质，首先是normalmap效果强烈，其次是高光模型亮眼（油亮派），而且高亮度部分会自动glow,这个角度上来说，即使当时不是linear渲染，也至少突破了srgb的色深限制（这些不是人话的后面解释），所以某种程度上模型导入unreal就有不同的感觉。 
+		这种感觉与其说是真实，不如说是夸张，所以unreal很长时间都在真实度表现有短板，因为人物皮肤质感不够真实，对比之下，同时期的cryengine很好的改善了皮肤的质感和光照感觉，整体画面的和谐性和真实性，要接近真实的多
+		unity的材质方面，是没有类似unreal的节点系统的，从unity5开始多了默认的几个材质类型，形式是往cryengine那种简单的配置方式上面靠，所以材质灵活性不够，另外一点就是unity不是重Normal map的引擎，带normalmap的材质总是塑料感太重，金属性不足，unity5虽然是改进了一些这方面的感觉，但由于默认的linear色彩空间，总是显得过亮，但是有没法再材质级别有效控制，除非使用类似shaderforge之类的插件，当然效果还是没有unreal的自带材质编辑器来的灵活
+	灯光模型方面，我不能从专业上说出太多不同，但是首先unity的shadow map不是最先进的，同场景实时物体一多，阴影贴图质量就会开始下降，可能是在阴影分割上面算法不够先进，unreal 和cry这方面问题就小的多
+		灯光和材质的模型配合起来，高光总是不够漂亮，也是确实存在的，即使unity5也有很大改进空间，这个不敢妄言太多
+	渲染：来补下linear和srgb之前的梗，真实性方面，人眼身是有一些特性的，就是说按照真实色彩曲线在屏幕上面显示的图像，和我们看到真实的时间，会有区别，因为人眼会加强某个亮度区域的色彩以适应这个世界，而摄像头就客观的多，三维渲染也是更真实一些，但是如果把这种真实的图像给人眼看到，会感觉比我们人眼看到灰暗的多，所以一般会在硬件方面做一个反曲线最后变成srgb的色彩空间让人看到。
+		那我们游戏引擎里面最终效果给人看到，当然是这种强化过的适应人眼的色彩空间，但是我做光照计算和贴图就不行，因为会由于多次的色彩强化导致最终画面强烈失真，这时候就是需要linear的色彩空间，计算时候用真实色彩，直到输出这一步把色彩强化一遍以适合人眼。
+		unity很早就是linear的色彩空间，但是由于后期最后一部的矫正方面很多从业人士的素养不足，或者完全没有这个意识，做出来的效果完全是不正确，或者缺乏调整弹性的。
+		而unreal则在工作流上面几乎是整合和后期的色表，去解决这个问题。我们转到下一个话题说
+	后期： 在所有的渲染结束之后，会加色彩校正和滤镜，我们看电影就知道，电影拍摄的效果和最终出片效果区别巨大，那是因为色彩Lut表校正之后的关系，换而言之，就是把所有的色彩一一对应，映射成另外一种色彩感觉，这个流程在unreal里面是硬性整合了，而unity则要作为滤镜使用，很多用户也不够重视这个步骤。导致最终效果不良
+		材质模型，灯光模型，渲染，和后期特效 这几个因素的叠加，导致了unity5的画面或者因为自身功能不强，或者因为开发者素养不足，整体效果会有弱于unreal的感觉（如果两个引擎都是最好的开发者在做，应该也是unreal画面更好一些）
+		但是粗糙这个词汇，我不赞同，所有的特效都要考虑硬件的，unity的做法很好的考虑了不同游戏平台对画面的兼容性，所有可以随时舍弃很多效果，保证平台的支持，这方面比unreal要灵活，所以说unity画面上面的表现比unreal看起来差，并不是那么单纯的原因，你看过cryengine在mobile上面的一些例子你会更理解这个问题，引擎不是一味追求至高画面表现的。
+	补充：
+		开发效率问题的话，unreal的起源是大型游戏，unity天生为了中小型项目。
+		我用过unreal一段时间，支援以前公司一个项目，用的痛苦万分，我现在已经多年不用双屏，而当时恨不得有3个屏幕，因为界面上面很多东西配置不合理，做个粒子特效面板占了整个屏幕，要想把asset给特定对象不能用拖曳，要先选择物体再在面板制定，阿以西坝的痛苦死了。
+		当然我制定unreal4现在改进良多非吴下阿蒙，但是我还是不想用下去。
+		unity的很多妙处说不得，往往就是东西放在了正确的地方，那你也就顺手用了没觉得多好，直到用了个不顺手的，才晓得它的好。
+		当然你说unity工程大到一定程度，那多人协作确实不是那么容易的事情，往往还是得有一个比较全面的去兼顾所有，细部再做分工， 不知道unreal怎么解决这个。
+		unity的unitypackge包是非常方便的东西，用法得当很多小游戏都是几天做完，这方面unreal store仍有差距。
+		总的来说unreal由于很多历史原因和架构庞大，开发效率方面比unity要低很多
+		
+9. Work flow fluency
+“Here we’ll explain the steps to use a single asset with Unity”
+就这一点而言看起来还比较流畅，然而并没有找到关于“编程->看效果”的流畅程度的概括性描述
+URL：http://docs.unity3d.com/Manual/AssetWorkflow.html
+	Asset Workflow
+		Here we’ll explain the steps to use a single asset with Unity. These steps are general and are meant only as an overview for basic actions. For the example, we’ll talk about using a 3D mesh.
+	Create Rough Asset
+		Use any supported 3D modeling package to create a rough version of your asset. Our example will use Maya. Work with the asset until you are ready to save. For a list of applications that are supported by Unity, please see this page.
+	Import
+		When you save your asset initially, you should save it normally to the Assets folder in your Project folder. When you open the Unity project, the asset will be detected and imported into the project. When you look in the Project View, you’ll see the asset located there, right where you saved it. Please note that Unity uses the FBX exporter provided by your modeling package to convert your models to the FBX file format. You will need to have the FBX exporter of your modeling package available for Unity to use. Alternatively, you can directly export as FBX from your application and save in the Projects folder. For a list of applications that are supported by Unity, please see this page.
+	Import Settings
+		If you select the asset in the Project View the import settings for this asset will appear in the Inspector. The options that are displayed will change based on the type of asset that is selected.
+	Adding Asset to the Scene
+		Simply click and drag the mesh from the Project View to the Hierarchy or Scene View to add it to the Scene. When you drag a mesh to the scene, you are creating a GameObject that has a Mesh Renderer Component. If you are working with a texture or a sound file, you will have to add it to a GameObject that already exists in the Scene or Project.
+	Putting Different Assets Together
+		Here is a brief description of the relationships between the most common assets
+			A Texture is applied to a Material
+			A Material is applied to a GameObject (with a Mesh Renderer Component)
+			An Animation is applied to a GameObject (with an Animation Component)
+			A sound file is applied to a GameObject (with an Audio Source Component)
+	Creating a Prefab
+		A Prefab is a stored collection containing one or more complete GameObjects with components attached and properties set. Prefabs are asset types, so they do not appear in the scene in their own right. However, they can be used to create instances of the stored objects in the scene. Each instance is a copy of the original prefab. For example, you might use a prefab to store a tree object and then create many instances of the tree in a forest scene.
+		By default, changes made to the prefab are automatically applied to all the instances, and so using prefabs can be a good way to maintain consistency among a set of objects. However, you can also break the link between the instance and the prefab if you want to create special variations on the original. You can also make changes to an instance, and then save those changes to the prefab (menu: GameObject > Apply Changes to Prefab).
+		You can create a Prefab from a GameObject in your scene, simply by dragging the GameObject from the scene into the project view. When you do this, the GameObject’s name text will be selected to let you rename it as you like.
+		For further information, see the Prefabs page in the manual.
+	Updating Assets
+		You have imported, instantiated, and linked your asset to a Prefab. Now when you want to edit your source asset, just double-click it from the Project View. The appropriate application will launch, and you can make any changes you want. When you’re done updating it, just Save it. Then, when you switch back to Unity, the update will be detected, and the asset will be re-imported. The asset’s link to the Prefab will also be maintained. So the effect you will see is that your Prefab will update. That’s all you have to know to update assets. Just open it and save!
+
+10. Learning difficulty for indie developers and teams
+“入门易精通难”
+知乎问答：游戏引擎 Unity 的入门易精通难体现在哪？为什么？
+URL：http://www.zhihu.com/question/23414153
+	为什么入门简单，看一下官网的文档和视频教程就知道了，看完几段视频和例子就能让初学者做出能玩的东西，其他同类商业引擎都做不到。物体+组件的结构，所见即所得的编辑方式，都把初学者的门槛降到了最低。
+	再说说难精通的体现。其实任何可以拿来做高大上酷炫屌游戏的商业引擎都是难精通的，这个由引擎的功能深度和泛用性决定。一个集成了无数商业中间件的引擎，包括动画系统、GUI、光照系统、寻路、物理等各个部分，任何一部分单独拿出来都需要用户用心掌握。从这个角度来说Unity和Unreal基本是差不多的。
+		那么Unity特有的坑有哪些呢？
+		1. 脚本执行顺序：MonoBehavior是Unity组件系统的核心，离开这个类所有易上手和高效开发的特性都无法施展。但多个组件脚本的执行顺序控制始终是令人头痛的问题。不了解这一点的用户很容易陷入各种隐藏bug的泥沼。
+		2. 组件式功能结构给每个人更大的控制权力，但无法很好的区分团队不同成员的责任。相比Unreal把编程分为C++，UnrealScript和Kismet三层的做法，Unity让每个开发者都能看到脚本源码并在需要时进行修改。对于独狼开发者来说非常方便，但如果一个游戏逻辑同时可能受到脚本程序、prefab参数配置和场景引用关联三方制约，维护起来就非常的乱，出了问题也很难第一时间分清责任。
+		3. 内存分配和垃圾回收造成的效率问题初学者很难了解。Unity的一个重要特征就是为了让整个引擎有更广的受众，故意隐藏了很多复杂的使用方法。比如说全自动的垃圾回收，就是为了让不懂内存分配的用户也能无障碍使用。但很快进阶一点的用户就会发现大量运行时垃圾回收造成的拖慢，以至于成为一个入门必经的陷阱。如果能在官方文档里告诉用户哪些操作会分配内存，情况会改善许多。
+		4. 功能迭代推新迅速，造成大量不成熟不完善的工作流程。这一点很难说是缺点，毕竟能第一时间用到酷炫的新功能对很多用户来说是求之不得的，当然如果你是商业项目的技术负责人就要小心了。一般来说，官方推出的功能至少要在一年后稳定性和适用性才会超过Asset Store上的同类第三方插件。
+	总的说来，由于优秀的可扩展性，上述这些问题都不致命。总有人在制作优秀的工具来弥补这个引擎的各种不足。而配合其天下无敌的易用性，unity整体的技术方向是非常成功的。
+
