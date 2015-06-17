@@ -1,0 +1,39 @@
+1. Supported programming languages
+C++,but c# is avilible with certain plugins.
+2. Multi-platform deployment
+The programs can be deployed to WindowsPC、Mac OS X、iOS、
+Android、Linux、SteamOS,XBOX, PS4 and  HTML5.The editor cam 
+run on either windows or OS X. 
+3. Hardware requirements for developers and users
+Desktop PC or Mac.
+Windows 7 64-bit or Mac OS X 10.9.2 or later.
+Quad-core Intel or AMD processor, 2.5 GHz or faster.
+NVIDIA GeForce 470 GTX or AMD Radeon 6870 HD series card or higher.
+8 GB RAM.
+The above is recommended for developers.
+The requirement for users depend on the quality.
+4. Community support and marketplace popularity
+a great community is https://forums.unrealengine.com/
+provides different parts for diverse uses.
+after becoming free,it became far more popular,but not as
+popular as unity.
+5. Official help docs availability
+a detailed Unreal Engine 4 Documentation is aviliable on
+https://docs.unrealengine.com/latest/INT/
+with serach function . 
+6. Game genres (e.g. RTS, FPS) favoritism
+common genres includes adventure,survival horor,FPS,action
+role-playing,RTS,simulation,TPS,MMORPG,puzzle
+7. Built-in modeling and animating system capability
+I didn't find such function,but it works well with maya,
+3dmax and other tools,
+The animating system allows for a deep level of control 
+for your characters and Skeletal Meshe,more functions
+see for example
+https://docs.unrealengine.com/latest/INT/Engine/Animation/Overview/index.html
+8. Graphics quality
+can be very high,but may require high-quality hardwire.
+9. Work flow fluency
+SORRY,I HAVEN'T FOUND IT.
+10. Learning difficulty for indie developers and teams
+fairly small,there are plenty tur
